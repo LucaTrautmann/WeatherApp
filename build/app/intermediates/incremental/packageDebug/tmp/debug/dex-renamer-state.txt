@@ -1,0 +1,4 @@
+#Sat Oct 14 20:36:45 CEST 2023
+base.0=C\:\\Users\\Felix\\App-Projects\\WeatherApp\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

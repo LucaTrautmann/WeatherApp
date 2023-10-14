@@ -13,7 +13,7 @@ class ApiRepository {
   ) async {
     try {
       final response = await http.get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/weather?lat=${lat.toString()}&lon=${long.toString()}&appid=23006cadbb1427f1b655e60a969e48dd&units=metric"));
+          "https://api.openweathermap.org/data/2.5/weather?lat=${lat.toString()}&lon=${long.toString()}&appid=1122616b7ce77385de46d050b9a97eac&units=metric"));
       return WeatherApiModel.fromJson(jsonDecode(response.body));
     } on Exception catch (e) {
       debugPrint(e.toString());
@@ -26,7 +26,7 @@ class ApiRepository {
   ) async {
     try {
       final response = await http.get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=23006cadbb1427f1b655e60a969e48dd&units=metric"));
+          "https://api.openweathermap.org/data/2.5/weather?q=$city&appid=1122616b7ce77385de46d050b9a97eac&units=metric"));
       return WeatherApiModel.fromJson(jsonDecode(response.body));
     } on Exception catch (e) {
       debugPrint(e.toString());
@@ -40,7 +40,7 @@ class ApiRepository {
   ) async {
     try {
       final response = await http.get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/forecast?lat=${lat.toString()}&lon=${long.toString()}&appid=23006cadbb1427f1b655e60a969e48dd&units=metric"));
+          "https://api.openweathermap.org/data/2.5/forecast?lat=${lat.toString()}&lon=${long.toString()}&appid=1122616b7ce77385de46d050b9a97eac&units=metric"));
       return WeatherForecastApiModel.fromJson(jsonDecode(response.body));
     } on Exception catch (e) {
       debugPrint(e.toString());
@@ -53,7 +53,7 @@ class ApiRepository {
   ) async {
     try {
       final response = await http.get(Uri.parse(
-          "https://api.openweathermap.org/data/2.5/forecast?q=$city&appid=23006cadbb1427f1b655e60a969e48dd&units=metric"));
+          "https://api.openweathermap.org/data/2.5/forecast?q=$city&appid=1122616b7ce77385de46d050b9a97eac&units=metric"));
       return WeatherForecastApiModel.fromJson(jsonDecode(response.body));
     } on Exception catch (e) {
       debugPrint(e.toString());
