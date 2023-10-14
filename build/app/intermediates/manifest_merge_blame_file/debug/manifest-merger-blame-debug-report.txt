@@ -29,20 +29,20 @@
 19-->[:location] C:\Users\Felix\App-Projects\WeatherApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
 20
 21    <permission
-21-->[androidx.core:core:1.9.0] C:\Users\Felix\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21-->[androidx.core:core:1.10.1] C:\Users\Felix\.gradle\caches\transforms-3\17d1f1089208f684c39afd744ee00177\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
 22        android:name="com.example.weather_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-22-->[androidx.core:core:1.9.0] C:\Users\Felix\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22-->[androidx.core:core:1.10.1] C:\Users\Felix\.gradle\caches\transforms-3\17d1f1089208f684c39afd744ee00177\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
 23        android:protectionLevel="signature" />
-23-->[androidx.core:core:1.9.0] C:\Users\Felix\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23-->[androidx.core:core:1.10.1] C:\Users\Felix\.gradle\caches\transforms-3\17d1f1089208f684c39afd744ee00177\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
 24
 25    <uses-permission android:name="com.example.weather_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-25-->[androidx.core:core:1.9.0] C:\Users\Felix\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-25-->[androidx.core:core:1.9.0] C:\Users\Felix\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25-->[androidx.core:core:1.10.1] C:\Users\Felix\.gradle\caches\transforms-3\17d1f1089208f684c39afd744ee00177\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+25-->[androidx.core:core:1.10.1] C:\Users\Felix\.gradle\caches\transforms-3\17d1f1089208f684c39afd744ee00177\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 26
 27    <application
 28        android:name="android.app.Application"
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.9.0] C:\Users\Felix\.gradle\caches\transforms-3\5f80b20db3afa86c72a9766b008d752d\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29-->[androidx.core:core:1.10.1] C:\Users\Felix\.gradle\caches\transforms-3\17d1f1089208f684c39afd744ee00177\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 30        android:debuggable="true"
 31        android:icon="@mipmap/launcher_icon"
 32        android:label="weather_app" >
@@ -80,15 +80,15 @@
 64            android:value="2" />
 65
 66        <service
-66-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+66-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
 67            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-67-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+67-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
 68            android:enabled="true"
-68-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+68-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
 69            android:exported="false"
-69-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+69-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 70            android:foregroundServiceType="location" />
-70-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+70-->[:geolocator_android] C:\Users\Felix\App-Projects\WeatherApp\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
 71        <service
 71-->[:location] C:\Users\Felix\App-Projects\WeatherApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-17:56
 72            android:name="com.lyokone.location.FlutterLocationService"
@@ -101,33 +101,33 @@
 75-->[:location] C:\Users\Felix\App-Projects\WeatherApp\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-53
 76
 77        <uses-library
-77-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+77-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\44c8c212e46a1bdb8e2f1f34ce55f426\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 78            android:name="androidx.window.extensions"
-78-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+78-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\44c8c212e46a1bdb8e2f1f34ce55f426\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
 79            android:required="false" />
-79-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+79-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\44c8c212e46a1bdb8e2f1f34ce55f426\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
 80        <uses-library
-80-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+80-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\44c8c212e46a1bdb8e2f1f34ce55f426\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
 81            android:name="androidx.window.sidecar"
-81-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+81-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\44c8c212e46a1bdb8e2f1f34ce55f426\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
 82            android:required="false" />
-82-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+82-->[androidx.window:window:1.0.0-beta04] C:\Users\Felix\.gradle\caches\transforms-3\44c8c212e46a1bdb8e2f1f34ce55f426\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 83
 84        <activity
-84-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\24bd5ae211488322aa8c48f41a7bee4d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+84-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\c4617a4fc7933a28574b49ff6158c6b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
 85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-85-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\24bd5ae211488322aa8c48f41a7bee4d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+85-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\c4617a4fc7933a28574b49ff6158c6b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
 86            android:exported="false"
-86-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\24bd5ae211488322aa8c48f41a7bee4d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+86-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\c4617a4fc7933a28574b49ff6158c6b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
 87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-87-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\24bd5ae211488322aa8c48f41a7bee4d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+87-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\c4617a4fc7933a28574b49ff6158c6b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
 88
 89        <meta-data
-89-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\f46b9773282b7a3d38863a46e0e0b5d1\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+89-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\a803b26917b9511c7a96bfb86ec9874f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
 90            android:name="com.google.android.gms.version"
-90-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\f46b9773282b7a3d38863a46e0e0b5d1\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+90-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\a803b26917b9511c7a96bfb86ec9874f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
 91            android:value="@integer/google_play_services_version" />
-91-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\f46b9773282b7a3d38863a46e0e0b5d1\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+91-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Felix\.gradle\caches\transforms-3\a803b26917b9511c7a96bfb86ec9874f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
 92    </application>
 93
 94</manifest>
