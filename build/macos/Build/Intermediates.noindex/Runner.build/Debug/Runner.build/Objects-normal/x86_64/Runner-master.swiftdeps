@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
-options: "987d0b527d659f83099cc53e86ee0732cd1f34c072f5cee6ceef82334d65a8f6"
-build_start_time: [1679555740, 737369060]
-build_end_time: [1679555744, 690617084]
-inputs:
-  "/Users/luca/Documents/weather_app/macos/Flutter/GeneratedPluginRegistrant.swift": [1679555731, 461723327]
-  "/Users/luca/Documents/weather_app/macos/Runner/AppDelegate.swift": [1677703634, 0]
-  "/Users/luca/Documents/weather_app/macos/Runner/MainFlutterWindow.swift": [1677703634, 0]

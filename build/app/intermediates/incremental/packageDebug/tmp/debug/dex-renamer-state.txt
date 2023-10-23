@@ -1,4 +1,4 @@
-#Sat Oct 14 20:52:39 CEST 2023
-base.0=C\:\\Users\\Felix\\App-Projects\\WeatherApp\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+#Mon Oct 23 13:33:51 CEST 2023
+base.0=/Users/luca/Documents/GitHub/WeatherApp/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
